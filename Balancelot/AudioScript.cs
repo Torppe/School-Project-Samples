@@ -7,6 +7,7 @@ using UnityEngine;
 public class ClipArray
 {
     public string _name;
+    [HideInInspector]
     public AudioClip currentAudioClip;
     public AudioClip[] audioClips;
 
